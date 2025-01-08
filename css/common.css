@@ -1,0 +1,30 @@
+.wrap,header,section,footer{
+    width: 100%;
+}
+
+.sec_sub_title{
+    font-family: 'BookkMyungjo-Bd';
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width:1200px) {
+
+    .sec_sub_title{
+        font-size: 28px;
+        margin-bottom: 70px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .sec_sub_title{
+        font-size: 24px;
+        margin-bottom: 70px;
+    }
+
+    .section_3 .sec_sub_title{
+        margin-bottom: 50px;
+    }
+}
